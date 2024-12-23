@@ -16,8 +16,7 @@ class Transformer:                                                       #Mendef
    
     def get_fft_freq(self, sampling: int = 0.004) -> np.array:           #Fungsi untuk mendapatkan frekuensi sampel DFT
         """                                                              #Docstring
-        Get Discrete Fourier Transform sample frequencies.  
-        MuseS sampling is 250Hz   
+        Get Discrete Fourier Transform sample frequencies.     
         Parameters    
         ----------------
         sampling: int                                                    #Tipe parameter sampling sebagai integer
